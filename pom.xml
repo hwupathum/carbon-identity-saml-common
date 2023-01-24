@@ -113,6 +113,17 @@
                 <version>${org.powermock.version}</version>
                 <scope>test</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.apache.santuario</groupId>
+                <artifactId>xmlsec</artifactId>
+                <version>${xmlsec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.wso2.orbit.jsr105</groupId>
+                <artifactId>jsr105</artifactId>
+                <version>${jsr105.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -138,6 +149,8 @@
         <commons-lang.wso2.osgi.version.range>[2.6.0,3.0.0)</commons-lang.wso2.osgi.version.range>
         <import.package.version.commons.logging>[1.2.0,2.0.0)</import.package.version.commons.logging>
         <javax.xml.parsers.import.pkg.version>[0.0.0, 1.0.0)</javax.xml.parsers.import.pkg.version>
+        <xmlsec.version>2.3.0</xmlsec.version>
+        <jsr105.version>1.0.1.wso2v1</jsr105.version>
         <wss4j.xml.security.imp.pkg.version.range>[2.1.7,2.4.0)</wss4j.xml.security.imp.pkg.version.range>
     </properties>
 
